@@ -1,0 +1,10 @@
+/*
+Theme Name: Codelation Default
+Author: Codelation
+Author URI: https://codelation.com/
+Description: A default Wordpress theme for the Codelation team to get up and running in a similar fashion to our rails project.
+Version: 0.1
+*/
+
+
+@import "./css/style.css";
