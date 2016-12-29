@@ -10,11 +10,13 @@ $primary-color:        #ed1e24            !default;
 $text-color:           #707070            !default;
 $museum-grey:          #3d3e3e            !default;
 $light-grey:           #ebebec            !default;
+$nerdq-green:          #64be80            !default;
+$nerdq-orange:         #f7c626            !default;
 
 //-------------------------------------------------------------
 // Fonts
 //-------------------------------------------------------------
 
-$font-family:         $helvetica   !default;
-$font-size:           14px         !default;
-$heading-font-family: $font-family !default;
+$font-family:         'Roboto', sans-serif           !default;
+$font-size:           14px                           !default;
+$heading-font-family: 'Roboto Condensed', sans-serif !default;

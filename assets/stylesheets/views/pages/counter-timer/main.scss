@@ -1,0 +1,40 @@
+@import "../../../base";
+
+body.page {
+  &::before {
+    background: linear-gradient(150deg, #3023ae 15%, #c96dd8 70%, #e18bef 94%);
+    content: " ";
+    display: block;
+    height: 800px;
+    position: absolute;
+    transform: skewY(-12deg);
+    transform-origin: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .countdown-wrapper {
+    @include outer-container;
+    position: relative;
+    z-index: 10;
+
+    .countdown {
+      color: $white;
+
+      .heading {
+        text-align: center;
+        text-shadow: 0 0 1px #3023ae;
+
+        h1 {
+          margin-top: 0;
+        }
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 26px;
+    }
+  }
+}

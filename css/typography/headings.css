@@ -1,0 +1,71 @@
+/*
+Error: Undefined variable: "$heading-font-family".
+        on line 7 of /Users/Tyson/Documents/Websites/nerdq.dev/wp-content/themes/nerdq/assets/stylesheets/typography/headings.scss
+
+2: h2,
+3: h3,
+4: h4,
+5: h5,
+6: h6 {
+7:   font-family: $heading-font-family;
+8:   text-rendering: optimizeLegibility; // Fix the character spacing for headings
+9: }
+10: 
+11: h1 {
+12:   font-size: 2.375em;
+
+Backtrace:
+/Users/Tyson/Documents/Websites/nerdq.dev/wp-content/themes/nerdq/assets/stylesheets/typography/headings.scss:7
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+/Users/Tyson/.gem/ruby/2.3.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/Tyson/.gem/ruby/2.3.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/Tyson/.gem/ruby/2.3.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/Tyson/.gem/ruby/2.3.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/Tyson/.gem/ruby/2.3.1/gems/listen-2.10.0/lib/listen/listener.rb:291:in `_process_changes'
+/Users/Tyson/.gem/ruby/2.3.1/gems/listen-2.10.0/lib/listen/listener.rb:255:in `block in _wait_for_changes'
+/Users/Tyson/.gem/ruby/2.3.1/gems/listen-2.10.0/lib/listen/listener.rb:238:in `loop'
+/Users/Tyson/.gem/ruby/2.3.1/gems/listen-2.10.0/lib/listen/listener.rb:238:in `_wait_for_changes'
+/Users/Tyson/.gem/ruby/2.3.1/gems/listen-2.10.0/lib/listen/listener.rb:327:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$heading-font-family\".\A         on line 7 of /Users/Tyson/Documents/Websites/nerdq.dev/wp-content/themes/nerdq/assets/stylesheets/typography/headings.scss\A \A 2: h2,\A 3: h3,\A 4: h4,\A 5: h5,\A 6: h6 {\A 7:   font-family: $heading-font-family;\A 8:   text-rendering: optimizeLegibility; // Fix the character spacing for headings\A 9: }\A 10: \A 11: h1 {\A 12:   font-size: 2.375em;"; }

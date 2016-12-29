@@ -1,0 +1,48 @@
+@import "../base";
+
+footer {
+  @include outer-container;
+  @include has-columns(2);
+  border-top: 1px solid color($grey, 200);
+  margin-top: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  .footer-logo {
+    @include display(flex);
+    @include align-items(center);
+  }
+
+  .socials {
+    @include has-columns(2);
+
+    a {
+      @include transition(all 1s ease-in-out);
+      color: #e18bef;
+      margin-right: 30px;
+      text-decoration: none;
+
+      &:hover {
+        @include transition(all 1s ease-in-out);
+        color: #3023ae;
+      }
+
+      i {
+        font-size: 38px;
+      }
+    }
+
+    .snapchat {
+      @include transition(all 1s ease-in-out);
+      @include display(flex);
+      @include align-items(center);
+      @include justify-content(flex-end);
+      color: #e18bef;
+
+      &:hover {
+        @include transition(all 1s ease-in-out);
+        color: #3023ae;
+      }
+    }
+  }
+}

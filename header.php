@@ -19,18 +19,20 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="/wp-content/themes/codelation-wordpress-theme/assets/javascripts/bxslider.js"></script>
+	<script src="https://use.fontawesome.com/c8968d80da.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,500,700" rel="stylesheet">
+	<script src="/wp-content/themes/nerdq/assets/javascripts/flipclock.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
-	<div class="whatever-you-want-the-container-to-be">
-	  <div class="outer-container-if-needed">
-	    <div class="logo">
-	      <a href="/">
-	        <? echo get_custom_logo(); ?>
-	      </a>
-	    </div>
+	<div class="header">
+	  <div class="header-logo">
+			<a href="/">
+				<? echo get_custom_logo(); ?>
+			</a>
 	  </div>
-		<? get_template_part( 'navigation'); ?>
+	  <nav class="navigation">
+	    <? get_template_part( 'navigation'); ?>
+	  </nav>
 	</div>
