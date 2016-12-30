@@ -200,43 +200,42 @@ body.home {
     .homepage-flex-grid {
       @include flex-direction(columns);
 
-        // Grid Item Widths
+      // Grid Item Widths
 
-        &.item-0,
-        &.item-3 {
-          width: 100%;
+      &.item-0,
+      &.item-3 {
+        width: 100%;
 
-          .grid-item {
-            @include display(flex);
-            @include align-items(flex-end);
+        .grid-item {
+          @include display(flex);
+          @include align-items(flex-end);
+          position: relative;
+
+          .grid-item-image {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 4;
+          }
+
+          .summary {
+            background-color: rgba(0, 0, 0, 0.5);
             position: relative;
+            z-index: 5;
+            max-width: 100%;
 
-            .grid-item-image {
-              bottom: 0;
-              left: 0;
-              position: absolute;
-              right: 0;
-              top: 0;
-              z-index: 4;
+            h2 {
+              font-size: 18px;
+              font-weight: 400;
             }
 
-            .summary {
-              background-color: rgba(0, 0, 0, 0.5);
-              position: relative;
-              z-index: 5;
-              max-width: 100%;
+            .summary-footer {
+              color: $nerdq-green;
 
-              h2 {
-                font-size: 18px;
-                font-weight: 400;
-              }
-
-              .summary-footer {
-                color: $nerdq-green;
-
-                span {
-                  color: $white;
-                }
+              span {
+                color: $white;
               }
             }
           }
