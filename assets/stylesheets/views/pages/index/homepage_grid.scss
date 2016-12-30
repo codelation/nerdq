@@ -9,6 +9,7 @@ body.home {
     position: absolute;
     transform: skewY(-12deg);
     transform-origin: 0;
+    top: -100px;
     width: 100%;
     z-index: 1;
   }
@@ -90,6 +91,20 @@ body.home {
             }
           }
         }
+
+        @media (max-width: $tablet-breakpoint) {
+          .grid-item {
+            .summary {
+
+              .summary-footer {
+
+                &:before {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
       }
 
       &.item-1,
@@ -160,6 +175,56 @@ body.home {
             position: relative;
             z-index: 5;
             width: 100%;
+
+            h2 {
+              font-size: 18px;
+              font-weight: 400;
+            }
+
+            .summary-footer {
+              color: $nerdq-green;
+
+              span {
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Remove empty classes after approval
+
+  @media (max-width: $mobile-breakpoint) {
+    .homepage-flex-grid {
+      @include flex-direction(columns);
+
+      // Grid Item Widths
+
+      &.item-0,
+      &.item-3 {
+        width: 100%;
+
+        .grid-item {
+          @include display(flex);
+          @include align-items(flex-end);
+          position: relative;
+
+          .grid-item-image {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 4;
+          }
+
+          .summary {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 5;
+            max-width: 100%;
 
             h2 {
               font-size: 18px;

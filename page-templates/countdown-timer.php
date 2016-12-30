@@ -12,14 +12,15 @@ get_header(); ?>
   <div class="countdown">
     <div class="heading">
       <h1>Welcome to the NerdQ</h1>
+      <p>Something cool is coming to Fargo in</p>
     </div>
     <div class="countdown-to-launch"></div>
   </div>
-  <div class="about-nerdq">
-    <? while ( have_posts() ) : the_post(); ?>
-      <?php the_content(); ?>
-   <? endwhile; ?>
-  </div>
+</div>
+<div class="content-area">
+  <? while ( have_posts() ) : the_post(); ?>
+    <?php the_content(); ?>
+ <? endwhile; ?>
 </div>
 <?php
 get_footer();

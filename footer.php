@@ -14,21 +14,15 @@
 			<span>&copy; 2017 The NerdQ<span>
 		</div>
 		<div class="socials">
-			<div class="social-icons">
-				<a href="https://www.facebook.com/TheNerdQ/">
-					<i class="fa fa-facebook-official" aria-hidden="true"></i>
-				</a>
-				<a href="https://twitter.com/thenerdq">
-					<i class="fa fa-twitter-square" aria-hidden="true"></i>
-				</a>
-				<a href="https://www.instagram.com/TheNerdQ/">
-					<i class="fa fa-instagram" aria-hidden="true"></i>
-				</a>
-			</div>
-			<div class="snapchat">
-				<i class="fa fa-snapchat" aria-hidden="true"></i>
-				<span>@TheNerdQ</span>
-			</div>
+			<a href="https://www.facebook.com/TheNerdQ/">
+				<i class="fa fa-facebook-official" aria-hidden="true"></i>
+			</a>
+			<a href="https://twitter.com/thenerdq">
+				<i class="fa fa-twitter-square" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.instagram.com/TheNerdQ/">
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a>
 		</div>
 	</footer>
 	<?php wp_footer(); ?>

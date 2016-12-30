@@ -75,6 +75,11 @@
     border-radius: 6px_prefixed
     ;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .7);
+
+    @media (max-width: $mobile-breakpoint) {
+      width: 40px;
+      height: 70px;
+    }
 }
 
 .flip-clock-wrapper ul li {
@@ -149,6 +154,10 @@
     background-color: #333;
     border-radius: 6px;
     font-size: 70px;
+
+    @media (max-width: $mobile-breakpoint) {
+      font-size: 55px;
+    }
 }
 
 .flip-clock-wrapper ul li a div.up div.inn {

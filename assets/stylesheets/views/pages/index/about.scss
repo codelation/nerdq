@@ -5,6 +5,14 @@ body.home {
     line-height: 1.6875;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
     max-width: 650px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    h1 {
+      font-size: 1.750em;
+    }
   }
 }

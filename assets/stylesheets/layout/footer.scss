@@ -11,10 +11,12 @@ footer {
   .footer-logo {
     @include display(flex);
     @include align-items(center);
+    font-size: 14px;
   }
 
   .socials {
-    @include has-columns(2);
+    @include display(flex);
+    @include justify-content(flex-end);
 
     a {
       @include transition(all 1s ease-in-out);
@@ -31,18 +33,16 @@ footer {
         font-size: 38px;
       }
     }
+  }
 
-    .snapchat {
-      @include transition(all 1s ease-in-out);
-      @include display(flex);
-      @include align-items(center);
-      @include justify-content(flex-end);
-      color: #e18bef;
+  @media (max-width: $mobile-breakpoint) {
+    .footer-logo {
+      @include justify-content(center);
+      margin-bottom: 10;
+    }
 
-      &:hover {
-        @include transition(all 1s ease-in-out);
-        color: #3023ae;
-      }
+    .socials {
+      @include justify-content(center);
     }
   }
 }
