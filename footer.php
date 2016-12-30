@@ -33,9 +33,21 @@
 	</footer>
 	<?php wp_footer(); ?>
 	<script type="text/javascript">
-	var clock = $('.your-clock').FlipClock({
-	// ... your options here
-	});
+		var today = new Date();
+		var launchDate = new Date('2017-01-01T05:59:59');
+		var timeLeft =  ((launchDate - today) / 1000).toFixed(0);
+
+		console.log(timeLeft);
+
+		if(timeLeft > 0) {
+			var clock = new FlipClock($('.countdown-to-launch'), {
+				autoStart: false,
+				countdown: true
+			});
+
+			clock.setTime(timeLeft);
+			clock.start();
+		}
 	</script>
 </body>
 </html>

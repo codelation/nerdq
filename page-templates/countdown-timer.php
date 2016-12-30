@@ -13,7 +13,7 @@ get_header(); ?>
     <div class="heading">
       <h1>Welcome to the NerdQ</h1>
     </div>
-    <div class="your-clock"></div>
+    <div class="countdown-to-launch"></div>
   </div>
   <div class="about-nerdq">
     <? while ( have_posts() ) : the_post(); ?>
