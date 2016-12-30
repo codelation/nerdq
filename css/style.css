@@ -449,6 +449,56 @@ html {
   box-sizing: inherit;
 }
 
+/* line 3, ../assets/stylesheets/layout/content_area.scss */
+.content-area {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: white;
+  padding: 40px 187px 40px;
+  position: relative;
+  z-index: 10;
+}
+/* line 10, ../assets/stylesheets/layout/content_area.scss */
+.content-area h1 {
+  font-size: 64px;
+  position: relative;
+}
+/* line 14, ../assets/stylesheets/layout/content_area.scss */
+.content-area h1:after {
+  background: linear-gradient(150deg, #3023ae 15%, #c96dd8 70%, #e18bef 94%);
+  bottom: -35px;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 100%;
+}
+/* line 25, ../assets/stylesheets/layout/content_area.scss */
+.content-area p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 26px;
+}
+@media (max-width: 999px) {
+  /* line 3, ../assets/stylesheets/layout/content_area.scss */
+  .content-area {
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 3, ../assets/stylesheets/layout/content_area.scss */
+  .content-area {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+  }
+}
+
 /* line 3, ../assets/stylesheets/layout/footer.scss */
 footer {
   margin-left: auto;
@@ -558,22 +608,10 @@ footer .footer-logo {
   -o-align-items: center;
   align-items: center;
   -ms-flex-align: center;
+  font-size: 14px;
 }
-/* line 16, ../assets/stylesheets/layout/footer.scss */
+/* line 17, ../assets/stylesheets/layout/footer.scss */
 footer .socials {
-  -webkit-align-content: stretch;
-  -moz-align-content: stretch;
-  align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  -webkit-box-align: stretch;
-  -moz-box-align: stretch;
-  box-align: stretch;
-  -webkit-align-items: stretch;
-  -moz-align-items: stretch;
-  -ms-align-items: stretch;
-  -o-align-items: stretch;
-  align-items: stretch;
-  -ms-flex-align: stretch;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -581,107 +619,6 @@ footer .socials {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  box-direction: normal;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-direction: row;
-  -webkit-box-lines: single;
-  -moz-box-lines: single;
-  box-lines: single;
-  -webkit-flex-wrap: nowrap;
-  -moz-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: start;
-  -moz-box-pack: start;
-  box-pack: start;
-  -webkit-justify-content: flex-start;
-  -moz-justify-content: flex-start;
-  -ms-justify-content: flex-start;
-  -o-justify-content: flex-start;
-  justify-content: flex-start;
-  -ms-flex-pack: start;
-}
-/* line 17, ../assets/vendor/codelation/mixins/has_columns.scss */
-footer .socials > *:not(script) {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 1 1 auto;
-  -moz-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  width: 50%;
-}
-@media (max-width: 767px) {
-  /* line 16, ../assets/stylesheets/layout/footer.scss */
-  footer .socials {
-    -webkit-box-lines: multiple;
-    -moz-box-lines: multiple;
-    box-lines: multiple;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  /* line 55, ../assets/vendor/codelation/mixins/has_columns.scss */
-  footer .socials > *:not(script) {
-    margin-bottom: 0;
-    margin-right: 0;
-    width: 100%;
-  }
-  /* line 60, ../assets/vendor/codelation/mixins/has_columns.scss */
-  footer .socials > *:not(script):last-child {
-    margin-bottom: 0;
-  }
-}
-/* line 19, ../assets/stylesheets/layout/footer.scss */
-footer .socials a {
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  color: #e18bef;
-  margin-right: 30px;
-  text-decoration: none;
-}
-/* line 25, ../assets/stylesheets/layout/footer.scss */
-footer .socials a:hover {
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  color: #3023ae;
-}
-/* line 30, ../assets/stylesheets/layout/footer.scss */
-footer .socials a i {
-  font-size: 38px;
-}
-/* line 35, ../assets/stylesheets/layout/footer.scss */
-footer .socials .snapchat {
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  box-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -o-align-items: center;
-  align-items: center;
-  -ms-flex-align: center;
   -webkit-box-pack: end;
   -moz-box-pack: end;
   box-pack: end;
@@ -691,14 +628,53 @@ footer .socials .snapchat {
   -o-justify-content: flex-end;
   justify-content: flex-end;
   -ms-flex-pack: end;
-  color: #e18bef;
 }
-/* line 42, ../assets/stylesheets/layout/footer.scss */
-footer .socials .snapchat:hover {
+/* line 21, ../assets/stylesheets/layout/footer.scss */
+footer .socials a {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  color: #e18bef;
+  margin-right: 30px;
+  text-decoration: none;
+}
+/* line 27, ../assets/stylesheets/layout/footer.scss */
+footer .socials a:hover {
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   color: #3023ae;
+}
+/* line 32, ../assets/stylesheets/layout/footer.scss */
+footer .socials a i {
+  font-size: 38px;
+}
+@media (max-width: 767px) {
+  /* line 39, ../assets/stylesheets/layout/footer.scss */
+  footer .footer-logo {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    margin-bottom: 10;
+  }
+  /* line 44, ../assets/stylesheets/layout/footer.scss */
+  footer .socials {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+  }
 }
 
 /* line 3, ../assets/stylesheets/layout/header.scss */
@@ -708,18 +684,17 @@ footer .socials .snapchat:hover {
   max-width: 1024px;
   padding-left: 12px;
   padding-right: 12px;
-  margin-bottom: 30px;
   padding: 30px;
   position: relative;
   text-align: center;
   z-index: 2;
 }
-/* line 13, ../assets/stylesheets/layout/header.scss */
+/* line 12, ../assets/stylesheets/layout/header.scss */
 .header .header-logo img {
   height: auto;
   max-width: 200px;
 }
-/* line 19, ../assets/stylesheets/layout/header.scss */
+/* line 18, ../assets/stylesheets/layout/header.scss */
 .header nav {
   display: none;
 }
@@ -759,6 +734,92 @@ h4 {
 /* line 28, ../assets/stylesheets/typography/headings.scss */
 h5 {
   font-size: 1em;
+}
+
+/* line 4, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page::before {
+  background: linear-gradient(150deg, #3023ae 15%, #c96dd8 70%, #e18bef 94%);
+  content: " ";
+  display: block;
+  height: 800px;
+  position: absolute;
+  transform: skewY(-12deg);
+  transform-origin: 0;
+  top: -50px;
+  width: 100%;
+  z-index: 1;
+}
+/* line 17, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 10;
+}
+/* line 23, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+/* line 32, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper .countdown {
+  color: #fff;
+}
+/* line 35, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper .countdown .heading {
+  margin-bottom: 60px;
+  text-align: center;
+  text-shadow: 0 0 1px #3023ae;
+}
+/* line 40, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper .countdown .heading h1 {
+  margin: 0 0 30px;
+}
+/* line 44, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper .countdown .heading p {
+  font-size: 20px;
+  margin-top: 0;
+}
+/* line 51, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 26px;
+}
+/* line 58, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .about-nerdq {
+  position: relative;
+  z-index: 10;
+}
+@media (max-width: 767px) {
+  /* line 64, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper {
+    margin-bottom: 15px;
+  }
+  /* line 67, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper .countdown {
+    color: #fff;
+  }
+  /* line 70, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper .countdown .heading {
+    margin-bottom: 30px;
+  }
+  /* line 73, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper .countdown .heading h1 {
+    margin: 0 0 15px;
+  }
+  /* line 77, ../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper .countdown .heading p {
+    font-size: 17px;
+  }
 }
 
 /* Get the bourbon mixin from http://bourbon.io */
@@ -846,8 +907,15 @@ h5 {
   border-radius: 6px_prefixed;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
+@media (max-width: 767px) {
+  /* line 66, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+  .flip-clock-wrapper ul {
+    width: 40px;
+    height: 70px;
+  }
+}
 
-/* line 80, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 85, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li {
   z-index: 1;
   position: absolute;
@@ -858,12 +926,12 @@ h5 {
   line-height: 87px;
 }
 
-/* line 90, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 95, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li:first-child {
   z-index: 2;
 }
 
-/* line 94, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 99, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a {
   display: block;
   height: 100%;
@@ -874,7 +942,7 @@ h5 {
   overflow: visible !important;
 }
 
-/* line 102, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 107, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div {
   z-index: 1;
   position: absolute;
@@ -884,7 +952,7 @@ h5 {
   overflow: hidden;
 }
 
-/* line 111, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 116, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div .shadow {
   position: absolute;
   width: 100%;
@@ -892,7 +960,7 @@ h5 {
   z-index: 2;
 }
 
-/* line 118, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 123, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.up {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -902,7 +970,7 @@ h5 {
   top: 0;
 }
 
-/* line 123, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 128, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.up:after {
   content: "";
   position: absolute;
@@ -915,7 +983,7 @@ h5 {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 135, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 140, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.down {
   -webkit-transform-origin: 50% 0;
   -moz-transform-origin: 50% 0;
@@ -925,7 +993,7 @@ h5 {
   bottom: 0;
 }
 
-/* line 140, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 145, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div div.inn {
   position: absolute;
   left: 0;
@@ -939,24 +1007,30 @@ h5 {
   border-radius: 6px;
   font-size: 70px;
 }
+@media (max-width: 767px) {
+  /* line 145, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+  .flip-clock-wrapper ul li a div div.inn {
+    font-size: 55px;
+  }
+}
 
-/* line 154, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 163, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.up div.inn {
   top: 0;
 }
 
-/* line 159, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 168, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.down div.inn {
   bottom: 0;
 }
 
 /* PLAY */
-/* line 165, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 174, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-before {
   z-index: 3;
 }
 
-/* line 169, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 178, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-active {
   -webkit-animation: asd 0.5s 0.5s linear both;
   -moz-animation: asd 0.5s 0.5s linear both;
@@ -964,7 +1038,7 @@ h5 {
   z-index: 2;
 }
 
-/* line 174, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 183, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider {
   float: left;
   display: inline-block;
@@ -973,12 +1047,12 @@ h5 {
   height: 100px;
 }
 
-/* line 182, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 191, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider:first-child {
   width: 0;
 }
 
-/* line 184, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 193, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-dot {
   display: block;
   background: #323434;
@@ -989,7 +1063,7 @@ h5 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* line 194, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 203, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider .flip-clock-label {
   font-size: 16px;
   position: absolute;
@@ -999,22 +1073,22 @@ h5 {
   text-shadow: none;
 }
 
-/* line 203, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 212, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider.minutes .flip-clock-label {
   right: -88px;
 }
 
-/* line 204, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 213, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider.seconds .flip-clock-label {
   right: -91px;
 }
 
-/* line 206, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 215, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-dot.top {
   top: 30px;
 }
 
-/* line 210, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 219, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-dot.bottom {
   bottom: 30px;
 }
@@ -1052,7 +1126,7 @@ h5 {
     z-index: 4;
   }
 }
-/* line 226, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 235, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-active .down {
   z-index: 2;
   -webkit-animation: turn 0.5s 0.5s linear both;
@@ -1092,7 +1166,7 @@ h5 {
     transform: rotateX(0deg);
   }
 }
-/* line 240, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 249, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-before .up {
   z-index: 2;
   -webkit-animation: turn2 0.5s linear both;
@@ -1132,13 +1206,13 @@ h5 {
     transform: rotateX(-90deg);
   }
 }
-/* line 254, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 263, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li.flip-clock-active {
   z-index: 3;
 }
 
 /* SHADOW */
-/* line 258, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 267, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-before .up .shadow {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, black));
@@ -1151,7 +1225,7 @@ h5 {
   animation: show 0.5s linear both;
 }
 
-/* line 268, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 277, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-active .up .shadow {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, black));
@@ -1165,7 +1239,7 @@ h5 {
 }
 
 /*DOWN*/
-/* line 280, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 289, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-before .down .shadow {
   background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, rgba(0, 0, 0, 0.1)));
@@ -1178,7 +1252,7 @@ h5 {
   animation: show 0.5s linear both;
 }
 
-/* line 290, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 299, ../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-active .down .shadow {
   background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, rgba(0, 0, 0, 0.1)));
@@ -1239,54 +1313,20 @@ h5 {
     opacity: 0;
   }
 }
-/* line 4, ../assets/stylesheets/views/pages/counter-timer/main.scss */
-body.page::before {
-  background: linear-gradient(150deg, #3023ae 15%, #c96dd8 70%, #e18bef 94%);
-  content: " ";
-  display: block;
-  height: 800px;
-  position: absolute;
-  transform: skewY(-12deg);
-  transform-origin: 0;
-  width: 100%;
-  z-index: 1;
-}
-/* line 16, ../assets/stylesheets/views/pages/counter-timer/main.scss */
-body.page .countdown-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1024px;
-  padding-left: 12px;
-  padding-right: 12px;
-  position: relative;
-  z-index: 10;
-}
-/* line 21, ../assets/stylesheets/views/pages/counter-timer/main.scss */
-body.page .countdown-wrapper .countdown {
-  color: #fff;
-}
-/* line 24, ../assets/stylesheets/views/pages/counter-timer/main.scss */
-body.page .countdown-wrapper .countdown .heading {
-  text-align: center;
-  text-shadow: 0 0 1px #3023ae;
-}
-/* line 28, ../assets/stylesheets/views/pages/counter-timer/main.scss */
-body.page .countdown-wrapper .countdown .heading h1 {
-  margin-top: 0;
-}
-/* line 34, ../assets/stylesheets/views/pages/counter-timer/main.scss */
-body.page .countdown-wrapper p {
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 26px;
-}
-
 /* line 4, ../assets/stylesheets/views/pages/index/about.scss */
 body.home .about-nerdq {
   line-height: 1.6875;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
   max-width: 650px;
+}
+@media (max-width: 767px) {
+  /* line 14, ../assets/stylesheets/views/pages/index/about.scss */
+  body.home h1 {
+    font-size: 1.750em;
+  }
 }
 
 /* line 4, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
@@ -1298,10 +1338,11 @@ body.home::before {
   position: absolute;
   transform: skewY(-12deg);
   transform-origin: 0;
+  top: -100px;
   width: 100%;
   z-index: 1;
 }
-/* line 16, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 17, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid-wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -1310,7 +1351,7 @@ body.home .homepage-flex-grid-wrapper {
   padding-right: 12px;
   padding: 1px 1px 0 1px;
 }
-/* line 21, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 22, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid {
   display: -webkit-box;
   display: -moz-box;
@@ -1341,28 +1382,28 @@ body.home .homepage-flex-grid {
   position: relative;
   z-index: 2;
 }
-/* line 30, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 31, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post {
   box-sizing: border-box;
   display: flex;
 }
-/* line 34, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 35, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post .grid-item {
   background-color: rgba(0, 0, 0, 0.9);
   width: 100%;
 }
-/* line 38, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 39, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post .grid-item a {
   color: #fff;
   text-decoration: none;
 }
-/* line 43, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 44, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post .grid-item h2 {
   font-size: 36px;
   font-weight: 400;
   margin-top: 0;
 }
-/* line 49, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 50, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post .grid-item .summary {
   display: -webkit-box;
   display: -moz-box;
@@ -1392,29 +1433,29 @@ body.home .homepage-flex-grid .post .grid-item .summary {
   -ms-flex-pack: justify;
   padding: 25px;
 }
-/* line 55, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 56, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post .grid-item .summary .summary-footer {
   color: #f7c626;
   text-transform: uppercase;
 }
-/* line 59, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 60, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post .grid-item .summary .summary-footer span {
   color: #fff;
 }
-/* line 68, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 69, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-3 {
   min-height: 300px;
   width: 63%;
 }
-/* line 74, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 75, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-0 .grid-item .summary, body.home .homepage-flex-grid .post.item-3 .grid-item .summary {
   max-width: 50%;
 }
-/* line 77, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 78, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-0 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-3 .grid-item .summary .summary-footer {
   position: relative;
 }
-/* line 80, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 81, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-0 .grid-item .summary .summary-footer:before, body.home .homepage-flex-grid .post.item-3 .grid-item .summary .summary-footer:before {
   background: linear-gradient(90deg, transparent, #f7c626 100%);
   content: "";
@@ -1425,25 +1466,31 @@ body.home .homepage-flex-grid .post.item-0 .grid-item .summary .summary-footer:b
   top: 2px;
   width: 300px;
 }
-/* line 95, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+@media (max-width: 999px) {
+  /* line 101, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0 .grid-item .summary .summary-footer:before, body.home .homepage-flex-grid .post.item-3 .grid-item .summary .summary-footer:before {
+    display: none;
+  }
+}
+/* line 110, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-1, body.home .homepage-flex-grid .post.item-2 {
   min-height: 300px;
   width: 37%;
 }
-/* line 101, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 116, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7 {
   min-height: 235px;
   width: 25%;
 }
-/* line 111, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 126, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-2, body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6 {
   padding-right: 1px;
 }
-/* line 119, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 134, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-1, body.home .homepage-flex-grid .post.item-2, body.home .homepage-flex-grid .post.item-3, body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7 {
   padding-bottom: 1px;
 }
-/* line 132, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 147, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-0 .grid-item, body.home .homepage-flex-grid .post.item-3 .grid-item {
   -webkit-align-content: stretch;
   -moz-align-content: stretch;
@@ -1513,7 +1560,7 @@ body.home .homepage-flex-grid .post.item-0 .grid-item > *:not(script), body.home
   width: 50%;
 }
 @media (max-width: 767px) {
-  /* line 132, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 147, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid .post.item-0 .grid-item, body.home .homepage-flex-grid .post.item-3 .grid-item {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
@@ -1534,7 +1581,7 @@ body.home .homepage-flex-grid .post.item-0 .grid-item > *:not(script), body.home
     margin-bottom: 0;
   }
 }
-/* line 144, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 159, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-1 .grid-item, body.home .homepage-flex-grid .post.item-2 .grid-item, body.home .homepage-flex-grid .post.item-4 .grid-item, body.home .homepage-flex-grid .post.item-5 .grid-item, body.home .homepage-flex-grid .post.item-6 .grid-item, body.home .homepage-flex-grid .post.item-7 .grid-item {
   display: -webkit-box;
   display: -moz-box;
@@ -1554,7 +1601,7 @@ body.home .homepage-flex-grid .post.item-1 .grid-item, body.home .homepage-flex-
   -ms-flex-align: end;
   position: relative;
 }
-/* line 149, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 164, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-1 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-2 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-4 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-5 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-6 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-7 .grid-item .grid-item-image {
   bottom: 0;
   left: 0;
@@ -1563,28 +1610,104 @@ body.home .homepage-flex-grid .post.item-1 .grid-item .grid-item-image, body.hom
   top: 0;
   z-index: 4;
 }
-/* line 158, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 173, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-1 .grid-item .summary, body.home .homepage-flex-grid .post.item-2 .grid-item .summary, body.home .homepage-flex-grid .post.item-4 .grid-item .summary, body.home .homepage-flex-grid .post.item-5 .grid-item .summary, body.home .homepage-flex-grid .post.item-6 .grid-item .summary, body.home .homepage-flex-grid .post.item-7 .grid-item .summary {
   background-color: rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 5;
   width: 100%;
 }
-/* line 164, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 179, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-1 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-2 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-4 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-5 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-6 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-7 .grid-item .summary h2 {
   font-size: 18px;
   font-weight: 400;
 }
-/* line 169, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 184, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-2 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-4 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-5 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-6 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-7 .grid-item .summary .summary-footer {
   color: #64be80;
 }
-/* line 172, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 187, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-2 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-4 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-5 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-6 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-7 .grid-item .summary .summary-footer span {
   color: #fff;
 }
+@media (max-width: 767px) {
+  /* line 206, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid {
+    -webkit-box-orient: columns;
+    -moz-box-orient: columns;
+    box-orient: columns;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: columns;
+    -moz-flex-direction: columns;
+    flex-direction: columns;
+    -ms-flex-direction: columns;
+  }
+  /* line 232, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-3 {
+    width: 100%;
+  }
+  /* line 236, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0 .grid-item, body.home .homepage-flex-grid .post.item-3 .grid-item {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    box-align: end;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    -o-align-items: flex-end;
+    align-items: flex-end;
+    -ms-flex-align: end;
+    position: relative;
+  }
+  /* line 241, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-3 .grid-item .grid-item-image {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+  }
+  /* line 250, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0 .grid-item .summary, body.home .homepage-flex-grid .post.item-3 .grid-item .summary {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 5;
+    max-width: 100%;
+  }
+  /* line 256, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-3 .grid-item .summary h2 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  /* line 261, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-3 .grid-item .summary .summary-footer {
+    color: #64be80;
+  }
+  /* line 264, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-3 .grid-item .summary .summary-footer span {
+    color: #fff;
+  }
+  /* line 272, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-1, body.home .homepage-flex-grid .post.item-2 {
+    width: 100%;
+  }
+  /* line 277, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7 {
+    width: 100%;
+  }
+}
 
-/* line 4, ../assets/stylesheets/views/single-post/main.scss */
+/* line 4, ../assets/stylesheets/views/pages/single-post/single_post.scss */
 body.single::before {
   background: linear-gradient(150deg, #3023ae 15%, #c96dd8 70%, #e18bef 94%);
   content: " ";
@@ -1593,41 +1716,7 @@ body.single::before {
   position: absolute;
   transform: skewY(-12deg);
   transform-origin: 0;
+  top: -100px;
   width: 100%;
   z-index: 1;
-}
-/* line 16, ../assets/stylesheets/views/single-post/main.scss */
-body.single .content-area {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1024px;
-  padding-left: 12px;
-  padding-right: 12px;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding-left: 187px;
-  padding-right: 187px;
-  padding-top: 40px;
-  position: relative;
-  z-index: 10;
-}
-/* line 25, ../assets/stylesheets/views/single-post/main.scss */
-body.single .content-area h1 {
-  font-size: 64px;
-  position: relative;
-}
-/* line 29, ../assets/stylesheets/views/single-post/main.scss */
-body.single .content-area h1:after {
-  background: linear-gradient(150deg, #3023ae 15%, #c96dd8 70%, #e18bef 94%);
-  bottom: -35px;
-  content: "";
-  display: block;
-  height: 5px;
-  position: absolute;
-  width: 100%;
-}
-/* line 40, ../assets/stylesheets/views/single-post/main.scss */
-body.single .content-area p {
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 26px;
 }

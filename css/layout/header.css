@@ -455,18 +455,17 @@ html {
   max-width: 1024px;
   padding-left: 12px;
   padding-right: 12px;
-  margin-bottom: 30px;
   padding: 30px;
   position: relative;
   text-align: center;
   z-index: 2;
 }
-/* line 13, ../../assets/stylesheets/layout/header.scss */
+/* line 12, ../../assets/stylesheets/layout/header.scss */
 .header .header-logo img {
   height: auto;
   max-width: 200px;
 }
-/* line 19, ../../assets/stylesheets/layout/header.scss */
+/* line 18, ../../assets/stylesheets/layout/header.scss */
 .header nav {
   display: none;
 }

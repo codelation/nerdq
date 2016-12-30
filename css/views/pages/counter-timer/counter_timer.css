@@ -448,18 +448,88 @@ html {
   box-sizing: inherit;
 }
 
-/* line 4, ../../../../assets/stylesheets/views/pages/index/about.scss */
-body.home .about-nerdq {
-  line-height: 1.6875;
+/* line 4, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page::before {
+  background: linear-gradient(150deg, #3023ae 15%, #c96dd8 70%, #e18bef 94%);
+  content: " ";
+  display: block;
+  height: 800px;
+  position: absolute;
+  transform: skewY(-12deg);
+  transform-origin: 0;
+  top: -50px;
+  width: 100%;
+  z-index: 1;
+}
+/* line 17, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper {
   margin-left: auto;
   margin-right: auto;
+  max-width: 1024px;
   padding-left: 12px;
   padding-right: 12px;
-  max-width: 650px;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 10;
+}
+/* line 23, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+/* line 32, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper .countdown {
+  color: #fff;
+}
+/* line 35, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper .countdown .heading {
+  margin-bottom: 60px;
+  text-align: center;
+  text-shadow: 0 0 1px #3023ae;
+}
+/* line 40, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper .countdown .heading h1 {
+  margin: 0 0 30px;
+}
+/* line 44, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper .countdown .heading p {
+  font-size: 20px;
+  margin-top: 0;
+}
+/* line 51, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .countdown-wrapper p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 26px;
+}
+/* line 58, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+body.page .about-nerdq {
+  position: relative;
+  z-index: 10;
 }
 @media (max-width: 767px) {
-  /* line 14, ../../../../assets/stylesheets/views/pages/index/about.scss */
-  body.home h1 {
-    font-size: 1.750em;
+  /* line 64, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper {
+    margin-bottom: 15px;
+  }
+  /* line 67, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper .countdown {
+    color: #fff;
+  }
+  /* line 70, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper .countdown .heading {
+    margin-bottom: 30px;
+  }
+  /* line 73, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper .countdown .heading h1 {
+    margin: 0 0 15px;
+  }
+  /* line 77, ../../../../assets/stylesheets/views/pages/counter-timer/counter_timer.scss */
+  body.page .counter-wrapper .countdown .heading p {
+    font-size: 17px;
   }
 }

@@ -533,8 +533,15 @@ html {
   border-radius: 6px_prefixed;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
+@media (max-width: 767px) {
+  /* line 66, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+  .flip-clock-wrapper ul {
+    width: 40px;
+    height: 70px;
+  }
+}
 
-/* line 80, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 85, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li {
   z-index: 1;
   position: absolute;
@@ -545,12 +552,12 @@ html {
   line-height: 87px;
 }
 
-/* line 90, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 95, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li:first-child {
   z-index: 2;
 }
 
-/* line 94, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 99, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a {
   display: block;
   height: 100%;
@@ -561,7 +568,7 @@ html {
   overflow: visible !important;
 }
 
-/* line 102, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 107, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div {
   z-index: 1;
   position: absolute;
@@ -571,7 +578,7 @@ html {
   overflow: hidden;
 }
 
-/* line 111, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 116, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div .shadow {
   position: absolute;
   width: 100%;
@@ -579,7 +586,7 @@ html {
   z-index: 2;
 }
 
-/* line 118, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 123, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.up {
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
@@ -589,7 +596,7 @@ html {
   top: 0;
 }
 
-/* line 123, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 128, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.up:after {
   content: "";
   position: absolute;
@@ -602,7 +609,7 @@ html {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 135, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 140, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.down {
   -webkit-transform-origin: 50% 0;
   -moz-transform-origin: 50% 0;
@@ -612,7 +619,7 @@ html {
   bottom: 0;
 }
 
-/* line 140, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 145, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div div.inn {
   position: absolute;
   left: 0;
@@ -626,24 +633,30 @@ html {
   border-radius: 6px;
   font-size: 70px;
 }
+@media (max-width: 767px) {
+  /* line 145, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+  .flip-clock-wrapper ul li a div div.inn {
+    font-size: 55px;
+  }
+}
 
-/* line 154, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 163, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.up div.inn {
   top: 0;
 }
 
-/* line 159, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 168, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li a div.down div.inn {
   bottom: 0;
 }
 
 /* PLAY */
-/* line 165, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 174, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-before {
   z-index: 3;
 }
 
-/* line 169, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 178, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-active {
   -webkit-animation: asd 0.5s 0.5s linear both;
   -moz-animation: asd 0.5s 0.5s linear both;
@@ -651,7 +664,7 @@ html {
   z-index: 2;
 }
 
-/* line 174, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 183, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider {
   float: left;
   display: inline-block;
@@ -660,12 +673,12 @@ html {
   height: 100px;
 }
 
-/* line 182, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 191, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider:first-child {
   width: 0;
 }
 
-/* line 184, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 193, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-dot {
   display: block;
   background: #323434;
@@ -676,7 +689,7 @@ html {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* line 194, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 203, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider .flip-clock-label {
   font-size: 16px;
   position: absolute;
@@ -686,22 +699,22 @@ html {
   text-shadow: none;
 }
 
-/* line 203, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 212, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider.minutes .flip-clock-label {
   right: -88px;
 }
 
-/* line 204, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 213, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-divider.seconds .flip-clock-label {
   right: -91px;
 }
 
-/* line 206, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 215, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-dot.top {
   top: 30px;
 }
 
-/* line 210, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 219, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-dot.bottom {
   bottom: 30px;
 }
@@ -739,7 +752,7 @@ html {
     z-index: 4;
   }
 }
-/* line 226, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 235, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-active .down {
   z-index: 2;
   -webkit-animation: turn 0.5s 0.5s linear both;
@@ -779,7 +792,7 @@ html {
     transform: rotateX(0deg);
   }
 }
-/* line 240, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 249, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-before .up {
   z-index: 2;
   -webkit-animation: turn2 0.5s linear both;
@@ -819,13 +832,13 @@ html {
     transform: rotateX(-90deg);
   }
 }
-/* line 254, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 263, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul li.flip-clock-active {
   z-index: 3;
 }
 
 /* SHADOW */
-/* line 258, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 267, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-before .up .shadow {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, black));
@@ -838,7 +851,7 @@ html {
   animation: show 0.5s linear both;
 }
 
-/* line 268, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 277, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-active .up .shadow {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, black 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, black));
@@ -852,7 +865,7 @@ html {
 }
 
 /*DOWN*/
-/* line 280, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 289, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-before .down .shadow {
   background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, rgba(0, 0, 0, 0.1)));
@@ -865,7 +878,7 @@ html {
   animation: show 0.5s linear both;
 }
 
-/* line 290, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
+/* line 299, ../../../../assets/stylesheets/views/pages/counter-timer/flipclock.scss */
 .flip-clock-wrapper ul.play li.flip-clock-active .down .shadow {
   background: -moz-linear-gradient(top, black 0%, rgba(0, 0, 0, 0.1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, rgba(0, 0, 0, 0.1)));

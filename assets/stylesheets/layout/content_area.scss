@@ -1,0 +1,42 @@
+@import "../base";
+
+.content-area {
+  @include outer-container;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 40px 187px 40px;
+  position: relative;
+  z-index: 10;
+
+  h1 {
+    font-size: 64px;
+    position: relative;
+
+    &:after {
+      background: linear-gradient(150deg, #3023ae 15%, #c96dd8 70%, #e18bef 94%);
+      bottom: -35px;
+      content: "";
+      display: block;
+      height: 5px;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 26px;
+  }
+
+  @media (max-width: $tablet-breakpoint) {
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+  }
+}
