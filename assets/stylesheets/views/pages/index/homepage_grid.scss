@@ -197,35 +197,8 @@ body.home {
   // Remove empty classes after approval
 
   @media (max-width: $mobile-breakpoint) {
-    &::before {
-    }
-
-    .homepage-flex-grid-wrapper {
-    }
-
     .homepage-flex-grid {
       @include flex-direction(columns);
-
-      .post {
-
-        .grid-item {
-
-          a {
-          }
-
-          h2 {
-          }
-
-          .summary {
-
-            .summary-footer {
-
-              span {
-
-              }
-            }
-          }
-        }
 
         // Grid Item Widths
 
@@ -263,72 +236,6 @@ body.home {
 
                 span {
                   color: $white;
-                }
-              }
-            }
-          }
-        }
-
-        &.item-1,
-        &.item-2 {
-          width: 100%;
-        }
-
-        &.item-4,
-        &.item-5,
-        &.item-6,
-        &.item-7 {
-          width: 100%;
-        }
-
-        // Grid Item Margins
-
-        &.item-0,
-        &.item-2,
-        &.item-4,
-        &.item-5,
-        &.item-6 {
-
-        }
-
-        &.item-0,
-        &.item-1,
-        &.item-2,
-        &.item-3,
-        &.item-4,
-        &.item-5,
-        &.item-6,
-        &.item-7 {
-
-        }
-
-        &.item-0,
-        &.item-3 {
-
-
-          .grid-item {
-          }
-        }
-
-        &.item-1,
-        &.item-2,
-        &.item-4,
-        &.item-5,
-        &.item-6,
-        &.item-7 {
-          .grid-item {
-
-            .grid-item-image {
-            }
-
-            .summary {
-
-              h2 {
-              }
-
-              .summary-footer {
-
-                span {
                 }
               }
             }
