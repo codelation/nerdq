@@ -94,11 +94,11 @@ function codelation_enqueue_styles() {
 
 function codelationdefault_the_custom_logo() {}
 
-function latest_posts($limit = 4, $category = 0) {
+function latest_posts($limit = 4, $category = '') {
 	$args = array(
 		'numberposts' => $limit,
 		'offset' => 0,
-		'category' => $category,
+		'category_name' => $category,
 		'orderby' => 'post_date',
 		'order' => 'DESC',
 		'include' => '',

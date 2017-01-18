@@ -10,28 +10,20 @@
 * @since Codelation Default 0.1
 */
  get_header(); ?>
- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
- <div class="page-hero" style="background-image: url( <?php the_post_thumbnail_url('full'); ?> )">
-   <div class="background-screen"></div>
-   <div class="content-wrapper">
-     <h1>
-       <? the_title(); ?>
-     </h1>
-     <h2 class="subheading">
-       <? the_field("subtitle") ?>
-     </h2>
-   </div>
- </div>
 
- <div class="content-wrapper">
-   <div class="page-full">
-     <div class="page-content">
-       <div class="page-summary">
-         <? the_content(); ?>
-       </div>
-     </div>
-   </div>
- </div>
+ <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+   <div id="primary" class="content-area">
+   	<main id="main" class="site-main" role="main">
+   		<?php
+
+   			// Include the single post content template.
+   			get_template_part( 'template-parts/content', 'page' );
+        
+   		?>
+
+   	</main><!-- .site-main -->
+
+   </div><!-- .content-area -->
  <? endwhile ?>
  <? endif ?>
  <?php get_footer(); ?>

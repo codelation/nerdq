@@ -200,11 +200,22 @@ body.home {
     .homepage-flex-grid {
       @include flex-direction(columns);
 
+      .post {
+        &.item-0,
+        &.item-1,
+        &.item-2,
+        &.item-3,
+        &.item-4,
+        &.item-5,
+        &.item-6,
+        &.item-7 {
+          width: 100%;
+        }
+      }
       // Grid Item Widths
 
       &.item-0,
       &.item-3 {
-        width: 100%;
 
         .grid-item {
           @include display(flex);

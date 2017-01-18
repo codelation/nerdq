@@ -16,6 +16,22 @@
   }
 
   nav {
-    display: none;
+    ul {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+      width: 100%;
+    }
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: 0 5px;
+      width: auto;
+
+      a {
+        color: white;
+        padding: 5px 10px;
+      }
+    }
   }
 }

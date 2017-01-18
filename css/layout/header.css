@@ -465,7 +465,22 @@ html {
   height: auto;
   max-width: 200px;
 }
-/* line 18, ../../assets/stylesheets/layout/header.scss */
-.header nav {
-  display: none;
+/* line 19, ../../assets/stylesheets/layout/header.scss */
+.header nav ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
+}
+/* line 25, ../../assets/stylesheets/layout/header.scss */
+.header nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 5px;
+  width: auto;
+}
+/* line 31, ../../assets/stylesheets/layout/header.scss */
+.header nav li a {
+  color: white;
+  padding: 5px 10px;
 }
