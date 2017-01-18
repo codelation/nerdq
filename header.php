@@ -29,10 +29,10 @@
 	<div class="header">
 	  <div class="header-logo">
 			<a href="/">
-				<? echo get_custom_logo(); ?>
+				<?php echo get_custom_logo(); ?>
 			</a>
 	  </div>
 	  <nav class="navigation">
-	    <? get_template_part( 'navigation'); ?>
+	    <?php get_template_part( 'navigation'); ?>
 	  </nav>
 	</div>

@@ -24,6 +24,6 @@
    	</main><!-- .site-main -->
 
    </div><!-- .content-area -->
- <? endwhile ?>
- <? endif ?>
+ <?php endwhile ?>
+ <?php endif ?>
  <?php get_footer(); ?>
