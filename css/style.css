@@ -810,7 +810,7 @@ footer .socials a i {
   padding: 5px 10px;
 }
 
-/* line 1, ../assets/stylesheets/typography/headings.scss */
+/* line 3, ../assets/stylesheets/typography/headings.scss */
 h1,
 h2,
 h3,
@@ -821,30 +821,35 @@ h6 {
   text-rendering: optimizeLegibility;
 }
 
-/* line 11, ../assets/stylesheets/typography/headings.scss */
+/* line 13, ../assets/stylesheets/typography/headings.scss */
 h1 {
   font-size: 2.375em;
   letter-spacing: 3px;
 }
 
-/* line 16, ../assets/stylesheets/typography/headings.scss */
+/* line 18, ../assets/stylesheets/typography/headings.scss */
 h2 {
   font-size: 1.75em;
 }
 
-/* line 20, ../assets/stylesheets/typography/headings.scss */
+/* line 22, ../assets/stylesheets/typography/headings.scss */
 h3 {
   font-size: 1.375em;
 }
 
-/* line 24, ../assets/stylesheets/typography/headings.scss */
+/* line 26, ../assets/stylesheets/typography/headings.scss */
 h4 {
   font-size: 1.125em;
 }
 
-/* line 28, ../assets/stylesheets/typography/headings.scss */
+/* line 30, ../assets/stylesheets/typography/headings.scss */
 h5 {
   font-size: 1em;
+}
+
+/* line 34, ../assets/stylesheets/typography/headings.scss */
+p {
+  text-align: justify;
 }
 
 /* line 4, ../assets/stylesheets/views/pages/category/category.scss */
