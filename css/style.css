@@ -810,7 +810,7 @@ footer .socials a i {
   padding: 5px 10px;
 }
 
-/* line 1, ../assets/stylesheets/typography/headings.scss */
+/* line 3, ../assets/stylesheets/typography/headings.scss */
 h1,
 h2,
 h3,
@@ -821,30 +821,35 @@ h6 {
   text-rendering: optimizeLegibility;
 }
 
-/* line 11, ../assets/stylesheets/typography/headings.scss */
+/* line 13, ../assets/stylesheets/typography/headings.scss */
 h1 {
   font-size: 2.375em;
   letter-spacing: 3px;
 }
 
-/* line 16, ../assets/stylesheets/typography/headings.scss */
+/* line 18, ../assets/stylesheets/typography/headings.scss */
 h2 {
   font-size: 1.75em;
 }
 
-/* line 20, ../assets/stylesheets/typography/headings.scss */
+/* line 22, ../assets/stylesheets/typography/headings.scss */
 h3 {
   font-size: 1.375em;
 }
 
-/* line 24, ../assets/stylesheets/typography/headings.scss */
+/* line 26, ../assets/stylesheets/typography/headings.scss */
 h4 {
   font-size: 1.125em;
 }
 
-/* line 28, ../assets/stylesheets/typography/headings.scss */
+/* line 30, ../assets/stylesheets/typography/headings.scss */
 h5 {
   font-size: 1em;
+}
+
+/* line 34, ../assets/stylesheets/typography/headings.scss */
+p {
+  text-align: justify;
 }
 
 /* line 4, ../assets/stylesheets/views/pages/category/category.scss */
@@ -1614,19 +1619,19 @@ body.home .homepage-flex-grid .post.item-1, body.home .homepage-flex-grid .post.
   width: 37%;
 }
 /* line 116, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7 {
+body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7, body.home .homepage-flex-grid .post.item-8, body.home .homepage-flex-grid .post.item-9, body.home .homepage-flex-grid .post.item-10, body.home .homepage-flex-grid .post.item-11, body.home .homepage-flex-grid .post.item-12, body.home .homepage-flex-grid .post.item-13, body.home .homepage-flex-grid .post.item-14, body.home .homepage-flex-grid .post.item-15 {
   min-height: 235px;
   width: 25%;
 }
-/* line 126, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-2, body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6 {
+/* line 134, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-2, body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-10 {
   padding-right: 1px;
 }
-/* line 134, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-1, body.home .homepage-flex-grid .post.item-2, body.home .homepage-flex-grid .post.item-3, body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7 {
+/* line 143, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-1, body.home .homepage-flex-grid .post.item-2, body.home .homepage-flex-grid .post.item-3, body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7, body.home .homepage-flex-grid .post.item-8, body.home .homepage-flex-grid .post.item-9, body.home .homepage-flex-grid .post.item-10, body.home .homepage-flex-grid .post.item-11, body.home .homepage-flex-grid .post.item-12, body.home .homepage-flex-grid .post.item-13, body.home .homepage-flex-grid .post.item-14, body.home .homepage-flex-grid .post.item-15 {
   padding-bottom: 1px;
 }
-/* line 147, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+/* line 164, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
 body.home .homepage-flex-grid .post.item-0 .grid-item, body.home .homepage-flex-grid .post.item-3 .grid-item {
   -webkit-align-content: stretch;
   -moz-align-content: stretch;
@@ -1696,7 +1701,7 @@ body.home .homepage-flex-grid .post.item-0 .grid-item > *:not(script), body.home
   width: 50%;
 }
 @media (max-width: 767px) {
-  /* line 147, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 164, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid .post.item-0 .grid-item, body.home .homepage-flex-grid .post.item-3 .grid-item {
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
@@ -1717,8 +1722,8 @@ body.home .homepage-flex-grid .post.item-0 .grid-item > *:not(script), body.home
     margin-bottom: 0;
   }
 }
-/* line 159, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-1 .grid-item, body.home .homepage-flex-grid .post.item-2 .grid-item, body.home .homepage-flex-grid .post.item-4 .grid-item, body.home .homepage-flex-grid .post.item-5 .grid-item, body.home .homepage-flex-grid .post.item-6 .grid-item, body.home .homepage-flex-grid .post.item-7 .grid-item {
+/* line 184, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+body.home .homepage-flex-grid .post.item-1 .grid-item, body.home .homepage-flex-grid .post.item-2 .grid-item, body.home .homepage-flex-grid .post.item-4 .grid-item, body.home .homepage-flex-grid .post.item-5 .grid-item, body.home .homepage-flex-grid .post.item-6 .grid-item, body.home .homepage-flex-grid .post.item-7 .grid-item, body.home .homepage-flex-grid .post.item-8 .grid-item, body.home .homepage-flex-grid .post.item-9 .grid-item, body.home .homepage-flex-grid .post.item-10 .grid-item, body.home .homepage-flex-grid .post.item-11 .grid-item, body.home .homepage-flex-grid .post.item-12 .grid-item, body.home .homepage-flex-grid .post.item-13 .grid-item, body.home .homepage-flex-grid .post.item-14 .grid-item, body.home .homepage-flex-grid .post.item-15 .grid-item {
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -1737,8 +1742,8 @@ body.home .homepage-flex-grid .post.item-1 .grid-item, body.home .homepage-flex-
   -ms-flex-align: end;
   position: relative;
 }
-/* line 164, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-1 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-2 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-4 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-5 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-6 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-7 .grid-item .grid-item-image {
+/* line 189, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+body.home .homepage-flex-grid .post.item-1 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-2 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-4 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-5 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-6 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-7 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-8 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-9 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-10 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-11 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-12 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-13 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-14 .grid-item .grid-item-image, body.home .homepage-flex-grid .post.item-15 .grid-item .grid-item-image {
   bottom: 0;
   left: 0;
   position: absolute;
@@ -1746,28 +1751,28 @@ body.home .homepage-flex-grid .post.item-1 .grid-item .grid-item-image, body.hom
   top: 0;
   z-index: 4;
 }
-/* line 173, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-1 .grid-item .summary, body.home .homepage-flex-grid .post.item-2 .grid-item .summary, body.home .homepage-flex-grid .post.item-4 .grid-item .summary, body.home .homepage-flex-grid .post.item-5 .grid-item .summary, body.home .homepage-flex-grid .post.item-6 .grid-item .summary, body.home .homepage-flex-grid .post.item-7 .grid-item .summary {
+/* line 198, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+body.home .homepage-flex-grid .post.item-1 .grid-item .summary, body.home .homepage-flex-grid .post.item-2 .grid-item .summary, body.home .homepage-flex-grid .post.item-4 .grid-item .summary, body.home .homepage-flex-grid .post.item-5 .grid-item .summary, body.home .homepage-flex-grid .post.item-6 .grid-item .summary, body.home .homepage-flex-grid .post.item-7 .grid-item .summary, body.home .homepage-flex-grid .post.item-8 .grid-item .summary, body.home .homepage-flex-grid .post.item-9 .grid-item .summary, body.home .homepage-flex-grid .post.item-10 .grid-item .summary, body.home .homepage-flex-grid .post.item-11 .grid-item .summary, body.home .homepage-flex-grid .post.item-12 .grid-item .summary, body.home .homepage-flex-grid .post.item-13 .grid-item .summary, body.home .homepage-flex-grid .post.item-14 .grid-item .summary, body.home .homepage-flex-grid .post.item-15 .grid-item .summary {
   background-color: rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 5;
   width: 100%;
 }
-/* line 179, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-1 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-2 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-4 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-5 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-6 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-7 .grid-item .summary h2 {
+/* line 204, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+body.home .homepage-flex-grid .post.item-1 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-2 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-4 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-5 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-6 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-7 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-8 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-9 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-10 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-11 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-12 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-13 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-14 .grid-item .summary h2, body.home .homepage-flex-grid .post.item-15 .grid-item .summary h2 {
   font-size: 18px;
   font-weight: 400;
 }
-/* line 184, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-2 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-4 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-5 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-6 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-7 .grid-item .summary .summary-footer {
+/* line 209, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-2 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-4 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-5 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-6 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-7 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-8 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-9 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-10 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-11 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-12 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-13 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-14 .grid-item .summary .summary-footer, body.home .homepage-flex-grid .post.item-15 .grid-item .summary .summary-footer {
   color: #64be80;
 }
-/* line 187, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-2 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-4 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-5 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-6 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-7 .grid-item .summary .summary-footer span {
+/* line 212, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-2 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-4 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-5 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-6 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-7 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-8 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-9 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-10 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-11 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-12 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-13 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-14 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid .post.item-15 .grid-item .summary .summary-footer span {
   color: #fff;
 }
 @media (max-width: 767px) {
-  /* line 200, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 225, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid {
     -webkit-box-orient: columns;
     -moz-box-orient: columns;
@@ -1780,11 +1785,11 @@ body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer s
     flex-direction: columns;
     -ms-flex-direction: columns;
   }
-  /* line 204, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
-  body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-1, body.home .homepage-flex-grid .post.item-2, body.home .homepage-flex-grid .post.item-3, body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7 {
+  /* line 229, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  body.home .homepage-flex-grid .post.item-0, body.home .homepage-flex-grid .post.item-1, body.home .homepage-flex-grid .post.item-2, body.home .homepage-flex-grid .post.item-3, body.home .homepage-flex-grid .post.item-4, body.home .homepage-flex-grid .post.item-5, body.home .homepage-flex-grid .post.item-6, body.home .homepage-flex-grid .post.item-7, body.home .homepage-flex-grid .post.item-8, body.home .homepage-flex-grid .post.item-9, body.home .homepage-flex-grid .post.item-10, body.home .homepage-flex-grid .post.item-11, body.home .homepage-flex-grid .post.item-12, body.home .homepage-flex-grid .post.item-13, body.home .homepage-flex-grid .post.item-14, body.home .homepage-flex-grid .post.item-15 {
     width: 100%;
   }
-  /* line 220, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 253, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid.item-0 .grid-item, body.home .homepage-flex-grid.item-3 .grid-item {
     display: -webkit-box;
     display: -moz-box;
@@ -1804,7 +1809,7 @@ body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer s
     -ms-flex-align: end;
     position: relative;
   }
-  /* line 225, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 258, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid.item-0 .grid-item .grid-item-image, body.home .homepage-flex-grid.item-3 .grid-item .grid-item-image {
     bottom: 0;
     left: 0;
@@ -1813,23 +1818,23 @@ body.home .homepage-flex-grid .post.item-1 .grid-item .summary .summary-footer s
     top: 0;
     z-index: 4;
   }
-  /* line 234, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 267, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid.item-0 .grid-item .summary, body.home .homepage-flex-grid.item-3 .grid-item .summary {
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 5;
     max-width: 100%;
   }
-  /* line 240, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 273, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid.item-0 .grid-item .summary h2, body.home .homepage-flex-grid.item-3 .grid-item .summary h2 {
     font-size: 18px;
     font-weight: 400;
   }
-  /* line 245, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 278, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid.item-0 .grid-item .summary .summary-footer, body.home .homepage-flex-grid.item-3 .grid-item .summary .summary-footer {
     color: #64be80;
   }
-  /* line 248, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
+  /* line 281, ../assets/stylesheets/views/pages/index/homepage_grid.scss */
   body.home .homepage-flex-grid.item-0 .grid-item .summary .summary-footer span, body.home .homepage-flex-grid.item-3 .grid-item .summary .summary-footer span {
     color: #fff;
   }
