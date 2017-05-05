@@ -10,7 +10,7 @@ get_header(); ?>
 
 <div class="homepage-flex-grid-wrapper">
   <div class="homepage-flex-grid">
-    <?php $featured_home_posts = latest_posts(8, 'featured'); ?>
+    <?php $featured_home_posts = latest_posts(16, 'featured'); ?>
     <?php $count = 0; ?>
     <?php foreach($featured_home_posts as $post) { ?>
       <?php $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
