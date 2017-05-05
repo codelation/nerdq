@@ -116,7 +116,15 @@ body.home {
       &.item-4,
       &.item-5,
       &.item-6,
-      &.item-7 {
+      &.item-7,
+	  &.item-8,
+	  &.item-9,
+	  &.item-10,
+	  &.item-11,
+	  &.item-12,
+	  &.item-13,
+	  &.item-14,
+	  &.item-15{
         min-height: 235px;
         width: 25%;
       }
@@ -127,7 +135,8 @@ body.home {
       &.item-2,
       &.item-4,
       &.item-5,
-      &.item-6 {
+      &.item-6,
+      &.item-10 {
         padding-right: 1px;
       }
 
@@ -138,7 +147,15 @@ body.home {
       &.item-4,
       &.item-5,
       &.item-6,
-      &.item-7 {
+      &.item-7,
+      &.item-8,
+      &.item-9,
+      &.item-10,
+      &.item-11,
+      &.item-12,
+      &.item-13,
+      &.item-14,
+      &.item-15 {
         padding-bottom: 1px;
       }
 
@@ -155,7 +172,15 @@ body.home {
       &.item-4,
       &.item-5,
       &.item-6,
-      &.item-7 {
+      &.item-7,
+      &.item-8,
+      &.item-9,
+      &.item-10,
+      &.item-11,
+      &.item-12,
+      &.item-13,
+      &.item-14,
+      &.item-15 {
         .grid-item {
           @include display(flex);
           @include align-items(flex-end);
@@ -208,7 +233,15 @@ body.home {
         &.item-4,
         &.item-5,
         &.item-6,
-        &.item-7 {
+        &.item-7,
+        &.item-8,
+        &.item-9,
+		&.item-10,
+		&.item-11,
+		&.item-12,
+		&.item-13,
+		&.item-14,
+		&.item-15{
           width: 100%;
         }
       }
